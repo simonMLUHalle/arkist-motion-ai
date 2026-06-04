@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 
-arr = np.load("test_squat_slow_frontal_02_30s.npy")
+arr = np.load("example_data/test_squat_slow_frontal_02_30s.npy")
 
 connections = [
     (11, 12),
