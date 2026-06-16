@@ -43,3 +43,13 @@ For the next project presentation, the strongest demonstrator is a professionali
 - tracking quality indicators
 - therapeutic feature extraction
 - first feedback generation
+
+## Generate Body Architecture Preview
+
+Use an existing MediaPipe sequence to render a presentation-ready pseudo body architecture image:
+
+```bash
+python mediapipe_service/body_architecture_visualizer.py mediapipe_service/test_squat_slow_frontal_02_30s.npy --output presentation_assets/body_architecture_preview.png
+```
+
+The generated image is kept out of Git by default because it is a reproducible presentation artifact.
