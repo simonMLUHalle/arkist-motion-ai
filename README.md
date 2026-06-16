@@ -43,4 +43,3 @@ For the next project presentation, the strongest demonstrator is a professionali
 - tracking quality indicators
 - therapeutic feature extraction
 - first feedback generation
-
