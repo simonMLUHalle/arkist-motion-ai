@@ -1,0 +1,62 @@
+# macOS / editor noise
+.DS_Store
+._*
+~$*
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Large or generated motion artifacts
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.h5
+*.onnx
+*.pt
+*.pth
+*.task
+
+# Research source documents and private working files
+*.pdf
+*.docx
+*.pptx
+*.xlsx
+*.xls
+Paper Suche */
+
+# Keep structured, shareable exercise exports under version control.
+!exercise_database/json/*.json
+!exercise_database/research_rules/*.json
+
+# External upstream repository / experimental model checkout.
+# Integrate later as a submodule or documented dependency if needed.
+D2STA/
+
+# Logs and experiment trackers
+logs/
+wandb/
+*.log
+
+# Generated media
+*.mp4
+*.mov
+*.avi
+*.png
+*.jpg
+*.jpeg
+*.gif
+

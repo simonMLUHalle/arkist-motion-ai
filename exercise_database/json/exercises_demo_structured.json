@@ -1,0 +1,484 @@
+[
+  {
+    "source": "Übungen_Demoprogramm.xlsx",
+    "condition": "Unspezifischer Rückenschmerz",
+    "stage": 1,
+    "exercise_number": "Übung 4",
+    "exercise_name": "Jefferson Curl",
+    "execution_view": "Seitlich",
+    "equipment": "-",
+    "voiceover_description": "Diese Übung findet im Stehen statt. Du lässt die Arme locker nach unten hängen und rundest dann Stück für Stück die Wirbelsäule ein. Versuch dabei, mit den Händen so weit wie möglich Richtung Boden zu kommen. Dann richtest Du dich Stück für Stück wieder auf, bis Du wieder gerade stehst. Führe 5 Wiederholungen aus.",
+    "demo_repetitions": 2,
+    "training_repetitions": 5,
+    "quick_info": "Atme ruhig und gleichmäßig durch die Nase ein und durch den Mund aus.",
+    "pain_rules": [
+      {
+        "pain": "0 = Schmerz",
+        "action": "Alles okay, starte die nächste Übung oder es geht weiter mit der Übung, falls \"Schmerz\" gesagt wurde",
+        "voiceover": "-",
+        "source_row": 4
+      },
+      {
+        "pain": "1 < Schmerz <= 3",
+        "action": "PopUp und Voice Over, dann nächste Übung oder es geht weiter mit der Übung, falls \"Schmerz\" gesagt wurde. \"Okay\" Button für weiter",
+        "voiceover": "Ein leichter Schmerz oder ein unangenehmes Gefühl, ist noch im akzeptablen Bereich. Wenn es jedoch stärker wird oder Du Dir unsicher bist, wie Du das Schmerzgefühl bewerten sollst, kannst Du selbstverständlich jederzeit sofort abbrechen und Deinen Trainer rufen. Okay, lass uns weiter machen.",
+        "source_row": 5
+      },
+      {
+        "pain": "3 < Schmerz < 8",
+        "action": "Regressionsübung: Starte die gleiche Animation (ohne Beispiel) mit aktualisiertem Regressions VoiceOver als Erklärung",
+        "voiceover": "Wie ich sehe, hast Du Dich bei der Übung noch nicht wohlgefühlt und Schmerzen verspürt. Lass es uns noch einmal etwas vereinfacht versuchen. Probiere die Übung nochmal mit verringertem Bewegungsradius. Beuge dich nur so weit nach vorn, wie es schmerzfrei möglich ist, bevor Du dich wieder aufrichtest.",
+        "source_row": 6
+      },
+      {
+        "pain": "8 < Schmerz <= 10",
+        "action": "Trainer rufen PopUp, bei okay MainMenu",
+        "voiceover": "Wenn Du so starke Schmerzen hast, dann unterbreche bitte Dein Training und rufe Deinen Trainer oder Deine Trainerin.",
+        "source_row": 7
+      }
+    ],
+    "regression": {
+      "default": "-"
+    },
+    "capture_problem": "Die Arme verschwinden in den Oberschenkeln. Evntl. bei weiteren Aufnahmen die Arme mit etwas mehr Abstand vom Torso halten. Liegt eventuell auch an dem \"gut\" trainierten Modell, welches etwas mehr Muskelmasse mitbringt als unsere Stuntmodels :)",
+    "software_problem": null,
+    "criteria": [
+      {
+        "criterion_group": null,
+        "condition": "Entfernung Hand-Boden",
+        "feedback": null,
+        "source_row": 4,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      },
+      {
+        "criterion_group": null,
+        "condition": "Rücken Krümmung",
+        "feedback": null,
+        "source_row": 4,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      },
+      {
+        "criterion_group": null,
+        "condition": "Beine Hüft-/Schulterbreit",
+        "feedback": null,
+        "source_row": 4,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      },
+      {
+        "criterion_group": "Kriterium 1",
+        "condition": "Hände über Knie",
+        "feedback": "\"Versuche mit den Händen noch etwas tiefer zu kommen\"",
+        "source_row": 5,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      },
+      {
+        "criterion_group": "Kriterium 1",
+        "condition": "Seitliches Tracking: Winkel Hüfte",
+        "feedback": "\"Bringe das Kinn zur Brust. Das hilft, die gesamte Wirbelsäule von oben nach unten einzurunden.\"",
+        "source_row": 5,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      },
+      {
+        "criterion_group": "Kriterium 1",
+        "condition": "Abweichung Hüft-/Fußwinkel > 10°",
+        "feedback": "\"Bringe die Füße etwas näher zusammen, sodass Du etwa hüftbreit stehst.\"",
+        "source_row": 5,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      },
+      {
+        "criterion_group": "Kriterium 2",
+        "condition": "Hände unter Knie",
+        "feedback": "\"Sehr gut, wenn Du Dich gut fühlst, versuche mit den Händen noch etwas tiefer zu kommen\"",
+        "source_row": 6,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      },
+      {
+        "criterion_group": "Kriterium 2",
+        "condition": "Seitliches Tracking: Winkel Kopf",
+        "feedback": "\"Bringe das Kinn zur Brust. Das hilft, die gesamte Wirbelsäule von oben nach unten einzurunden.\"",
+        "source_row": 6,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      },
+      {
+        "criterion_group": "Kriterium 3",
+        "condition": "Hände unter Mitte Knie & Sprunggelenk",
+        "feedback": "\"Du machst das sehr gut\"",
+        "source_row": 7,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      },
+      {
+        "criterion_group": "Kriterium 3",
+        "condition": "Frontal: Fläche Schulter-Hüfte",
+        "feedback": "\"Bringe das Kinn zur Brust. Das hilft, die gesamte Wirbelsäule von oben nach unten einzurunden.\"",
+        "source_row": 7,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      }
+    ],
+    "abort_criteria": [
+      {
+        "condition": "Asymmetrie Handhöhe >15cm",
+        "source_row": 4,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      },
+      {
+        "condition": "Asymmetrie Handbreite / Hände parallel, Hand-Schulter Winkel",
+        "source_row": 4,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      }
+    ],
+    "original_rows": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "source": "Übungen_Demoprogramm.xlsx",
+    "condition": "Unspezifischer Rückenschmerz",
+    "stage": 1,
+    "exercise_number": "Übung 13",
+    "exercise_name": "Stehende Rotation mit hin her schwingen",
+    "execution_view": "Frontal",
+    "equipment": "-",
+    "voiceover_description": "Bei dieser Übung geht es um die Rotation im Oberkörper. Schwinge die Arme möglichst weit hin und her, indem Du den Oberkörper dynamisch rotierst. Führe die Bewegung insgesamt 10 mal aus.",
+    "demo_repetitions": "5x pro Seite",
+    "training_repetitions": "10 pro Seite",
+    "quick_info": "Rotiere möglichst viel aus dem Oberkörper und wenig mit dem Becken.",
+    "pain_rules": [
+      {
+        "pain": "0 = Schmerz",
+        "action": "Alles okay, starte nächste Übung",
+        "voiceover": "-",
+        "source_row": 9
+      },
+      {
+        "pain": "1 < Schmerz <= 3",
+        "action": "PopUp und Voice Over, dann nächste Übung oder es geht weiter mit der Übung, falls \"Schmerz\" gesagt wurde. \"Okay\" Button für weiter",
+        "voiceover": "Ein leichter Schmerz oder ein unangenehmes Gefühl, ist noch im akzeptablen Bereich. Wenn es jedoch stärker wird oder Du Dir unsicher bist, wie Du das Schmerzgefühl bewerten sollst, kannst Du selbstverständlich jederzeit sofort abbrechen und Deinen Trainer rufen. Okay, lass uns weiter machen.",
+        "source_row": 10
+      },
+      {
+        "pain": "3 < Schmerz < 8",
+        "action": "Regressionsübung: Starte die gleiche Animation (ohne Beispiel) mit aktualisiertem Regressions VoiceOver als Erklärung",
+        "voiceover": "Wie ich sehe, hast Du Dich bei der Übung noch nicht wohlgefühlt und Schmerzen verspürt. Lass es uns noch einmal etwas vereinfacht versuchen. Probiere die Übung nochmal und rotiere dabei etwas langsamer. Dadurch kannst Du es besser kontrollieren, im schmerzfreien Bewegungsumfang zu bleiben.",
+        "source_row": 11
+      },
+      {
+        "pain": "8 < Schmerz <= 10",
+        "action": "Trainer rufen PopUp, bei okay MainMenu",
+        "voiceover": "Wenn Du so starke Schmerzen hast, dann unterbreche bitte Dein Training und rufe Deinen Trainer oder Deine Trainerin.",
+        "source_row": 12
+      }
+    ],
+    "regression": {
+      "default": "-"
+    },
+    "capture_problem": null,
+    "software_problem": "Avatar slidet etwas von rechts nach links beim Schwingen",
+    "criteria": [
+      {
+        "criterion_group": null,
+        "condition": "Winkel Hand-Schulter & Schulter-Hüfte",
+        "feedback": null,
+        "source_row": 9,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      },
+      {
+        "criterion_group": null,
+        "condition": "Beine Hüft-/Schulterbreit",
+        "feedback": null,
+        "source_row": 9,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      },
+      {
+        "criterion_group": "Kriterium 1",
+        "condition": "20° < Winkel <70°",
+        "feedback": "<20°: \"Spreize die Arme etwas weiter vom Körper ab. Das ermöglicht dir mehr Rotation.\"; >70°: \"Senke die Arme etwas ab. Das reduziert die Spannung und ermöglicht dir mehr Rotation.\"",
+        "source_row": 10,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      },
+      {
+        "criterion_group": "Kriterium 1",
+        "condition": "Abweichung Hüft-/Fußwinkel > 20°",
+        "feedback": "\"Bringe die Füße etwas näher zusammen, sodass Du etwa hüftbreit stehst.\"",
+        "source_row": 10,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      }
+    ],
+    "abort_criteria": [
+      {
+        "condition": "Abstand Schulter-Fußgelenk",
+        "source_row": 10,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      }
+    ],
+    "original_rows": [
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "source": "Übungen_Demoprogramm.xlsx",
+    "condition": "Unspezifischer Rückenschmerz\n\n(& Kniearthrose)",
+    "stage": 2,
+    "exercise_number": "Übung 4",
+    "exercise_name": "Kniebeuge",
+    "execution_view": "Frontal",
+    "equipment": "-",
+    "voiceover_description": "Nun machen wir eine einfache Kniebeuge. Achte dabei darauf, dass deine Fersen die ganze Zeit auf dem Boden bleiben. Streck' die Arme nach vorn; das hilft bei der Bewegung. Führe 10 Wiederholungen aus.",
+    "demo_repetitions": 5,
+    "training_repetitions": 10,
+    "quick_info": "Halte dich, wenn nötig, zur Sicherheit an einem stabilen Gegenstand fest, zum Beispiel an einem Tisch vor dir.",
+    "pain_rules": [
+      {
+        "pain": "0 = Schmerz",
+        "action": "Alles okay, starte nächste Übung",
+        "voiceover": "-",
+        "source_row": 14
+      },
+      {
+        "pain": "1 < Schmerz <= 3",
+        "action": "PopUp und Voice Over, dann nächste Übung oder es geht weiter mit der Übung, falls \"Schmerz\" gesagt wurde. \"Okay\" Button für weiter",
+        "voiceover": "Ein leichter Schmerz oder ein unangenehmes Gefühl, ist noch im akzeptablen Bereich. Wenn es jedoch stärker wird oder Du Dir unsicher bist, wie Du das Schmerzgefühl bewerten sollst, kannst Du selbstverständlich jederzeit sofort abbrechen und Deinen Trainer rufen. Okay, lass uns weiter machen.",
+        "source_row": 15
+      },
+      {
+        "pain": "3 < Schmerz < 8",
+        "action": "Regressionsübung: Starte die alternative Animation (mit Beispiel) mit aktualisiertem Regressions VoiceOver als Erklärung und neuer QuickInfo",
+        "voiceover": "-",
+        "source_row": 16
+      },
+      {
+        "pain": "8 < Schmerz <= 10",
+        "action": "Trainer rufen PopUp, bei okay MainMenu",
+        "voiceover": "Wenn Du so starke Schmerzen hast, dann unterbreche bitte Dein Training und rufe Deinen Trainer oder Deine Trainerin.",
+        "source_row": 17
+      }
+    ],
+    "regression": {
+      "default": "-"
+    },
+    "capture_problem": "Hände glitchen in Oberschenkel, aber die Animation sieht sehr sauber aus",
+    "software_problem": null,
+    "criteria": [
+      {
+        "criterion_group": null,
+        "condition": "Veränderung Kniegelenk während der Ausführung",
+        "feedback": null,
+        "source_row": 14,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      },
+      {
+        "criterion_group": null,
+        "condition": "Ferse auf den Boden",
+        "feedback": null,
+        "source_row": 14,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      },
+      {
+        "criterion_group": null,
+        "condition": "Höhe Hüfte / Winkel Knie-Hüfte",
+        "feedback": null,
+        "source_row": 14,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      },
+      {
+        "criterion_group": null,
+        "condition": "Abstand Hüfte-Hand",
+        "feedback": null,
+        "source_row": 14,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      },
+      {
+        "criterion_group": "Kriterium 1",
+        "condition": "Relativer Abstand Knie >15cm",
+        "feedback": "ABBRUCH",
+        "source_row": 15,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      },
+      {
+        "criterion_group": "Kriterium 1",
+        "condition": "KI Trainieren / optimieren mit falschen Bildern",
+        "feedback": "\"Achte darauf, dass du die Fersen während der gesamten Bewegung am Boden hältst.\"",
+        "source_row": 15,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      },
+      {
+        "criterion_group": "Kriterium 1",
+        "condition": "Höhe Hüfte auf Knie Höhe\nKnie Winkel ca. 90°",
+        "feedback": "\"Versuche, noch etwas tiefer nach unten zu kommen, bis dein Oberschenkel parallel zum Boden ist.\"",
+        "source_row": 15,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      },
+      {
+        "criterion_group": "Kriterium 1",
+        "condition": "Hände parallel zu Boden\nHand auf Schulterhöhe\n90° nach vorne",
+        "feedback": "\"Strecke die Arme ungefähr auf Schulterhöhe gerade nach vorn aus\"",
+        "source_row": 15,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      },
+      {
+        "criterion_group": "Kriterium 2",
+        "condition": "Relativer Abstand Knie \n>10cm & <15cm",
+        "feedback": "\"Versuche, die Knie während der Bewegung ungefähr in Richtung Fußspitzen zu orientieren.\"",
+        "source_row": 16,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      },
+      {
+        "criterion_group": "Kriterium 3",
+        "condition": "Relativer Abstand Knie <5cm",
+        "feedback": "\"Du machst das sehr gut\"",
+        "source_row": 17,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      }
+    ],
+    "abort_criteria": [
+      {
+        "condition": "Veränderung Kniegelenk während der Ausführung",
+        "source_row": 14,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      },
+      {
+        "condition": "Relativer Abstand Knie >15cm",
+        "source_row": 15,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      }
+    ],
+    "original_rows": [
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  {
+    "source": "Übungen_Demoprogramm.xlsx",
+    "condition": "Kniearthrose",
+    "stage": 2,
+    "exercise_number": "Übung 6",
+    "exercise_name": "Wandsitz",
+    "execution_view": "Seitlich",
+    "equipment": "Wand",
+    "voiceover_description": "Wie ich sehe, hast Du dich bei der Übung noch nicht wohlgefühlt und Schmerzen verspürt. Lass es uns noch einmal etwas vereinfacht versuchen. Lehne dich mit dem Rücken an der Wand an und beuge dann die Knie, bis sich deine Oberschenkel parallel zum Boden befinden. Halte diese Position für die angegebene Zeit.",
+    "demo_repetitions": null,
+    "training_repetitions": null,
+    "quick_info": "Versuche, einen Winkel von 90 Grad im Kniegelenk zu erreichen und zu halten. Halte deine Arme vor dem Körper oder stütze sie an der Wand ab.",
+    "pain_rules": [
+      {
+        "pain": "0 = Schmerz",
+        "action": "Alles okay, Training ist beendet oder fortsetzen, falls \"Schmerz\" gesagt wurde",
+        "voiceover": "-",
+        "source_row": 19
+      },
+      {
+        "pain": "1 < Schmerz <= 3",
+        "action": "PopUp und Voice Over, dann nächste Übung oder es geht weiter mit der Übung, falls \"Schmerz\" gesagt wurde. \"Okay\" Button für weiter",
+        "voiceover": "Ein leichter Schmerz oder ein unangenehmes Gefühl, ist noch im akzeptablen Bereich. Wenn es jedoch stärker wird oder Du Dir unsicher bist, wie Du das Schmerzgefühl bewerten sollst, kannst Du selbstverständlich jederzeit sofort abbrechen und Deinen Trainer rufen. Okay, lass uns weiter machen.",
+        "source_row": 20
+      },
+      {
+        "pain": "3 < Schmerz < 8",
+        "action": "Regressionsübung: Starte die gleiche Animation (ohne Beispiel) mit aktualisiertem Regressions VoiceOver als Erklärung",
+        "voiceover": "Wie ich sehe, hast Du Dich bei der Übung noch nicht wohlgefühlt und Schmerzen verspürt. Lass es uns noch einmal etwas vereinfacht versuchen. Probiere die Übung nochmal aber gehe diesmal nicht so weit nach unten. Indem Du die Knie weniger beugst, kannst Du erstmal in einem schmerzfreien Bewegungsumfang bleiben.",
+        "source_row": 21
+      },
+      {
+        "pain": "8 < Schmerz <= 10",
+        "action": "Trainer rufen PopUp, bei okay MainMenu",
+        "voiceover": "Wenn Du so starke Schmerzen hast, dann unterbreche bitte Dein Training und rufe Deinen Trainer oder Deine Trainerin.",
+        "source_row": 22
+      }
+    ],
+    "regression": {
+      "default": "-"
+    },
+    "capture_problem": null,
+    "software_problem": null,
+    "criteria": [
+      {
+        "criterion_group": null,
+        "condition": "Veränderung Kniegelenk während der Ausführung",
+        "feedback": null,
+        "source_row": 19,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      },
+      {
+        "criterion_group": null,
+        "condition": "Ferse auf den Boden",
+        "feedback": null,
+        "source_row": 19,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      },
+      {
+        "criterion_group": null,
+        "condition": "Höhe Hüfte / Winkel Knie-Hüfte",
+        "feedback": null,
+        "source_row": 19,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      },
+      {
+        "criterion_group": null,
+        "condition": "Abstand Hüfte-Hand",
+        "feedback": null,
+        "source_row": 19,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      }
+    ],
+    "abort_criteria": [
+      {
+        "condition": "Veränderung Kniegelenk während der Ausführung",
+        "source_row": 19,
+        "status": "original_table",
+        "needs_mapping_to_mediapipe": true
+      }
+    ],
+    "original_rows": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ]
+  }
+]

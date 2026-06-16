@@ -1,0 +1,49 @@
+{
+  "exercise": "Jefferson Curl",
+
+  "original_table_criteria": [
+    "Entfernung Hand-Boden",
+    "Rücken Krümmung",
+    "Beine Hüft-/Schulterbreit",
+    "Asymmetrie Handhöhe",
+    "Hand-Schulter Winkel"
+  ],
+
+  "arkist_enhanced_criteria": [
+
+    {
+      "name": "hand_floor_distance",
+      "priority": "high"
+    },
+
+    {
+      "name": "spinal_flexion",
+      "priority": "high"
+    },
+
+    {
+      "name": "foot_width",
+      "priority": "medium"
+    },
+
+    {
+      "name": "left_right_symmetry",
+      "priority": "high"
+    },
+
+    {
+      "name": "head_position",
+      "priority": "medium"
+    },
+
+    {
+      "name": "movement_speed",
+      "priority": "medium"
+    },
+
+    {
+      "name": "repetition_count",
+      "priority": "high"
+    }
+  ]
+}

@@ -1,0 +1,4013 @@
+{
+  "file": "Übungen_Demoprogramm.xlsx",
+  "sheets": {
+    "Tabelle1": {
+      "max_row": 25,
+      "max_column": 31,
+      "merged_cells": [
+        "U19:V19",
+        "W4:X4",
+        "F4:F7",
+        "C14:C17",
+        "Y4:Z4",
+        "H4:H7",
+        "U9:V9",
+        "E14:E17",
+        "P4:P7",
+        "P9:P12",
+        "AA19:AB19",
+        "J19:J22",
+        "Y9:Z9",
+        "E19:E22",
+        "H9:H12",
+        "G19:G22",
+        "J9:J12",
+        "Q14:Q17",
+        "B14:B17",
+        "E4:E7",
+        "C4:C7",
+        "AA9:AB9",
+        "C9:C12",
+        "U2:V2",
+        "AD1:AE1",
+        "E9:E12",
+        "E1:F1",
+        "Q4:Q7",
+        "Y2:Z2",
+        "Y14:Z14",
+        "Y19:Z19",
+        "Q19:Q22",
+        "B19:B22",
+        "AA4:AB4",
+        "J14:J17",
+        "D4:D7",
+        "J4:J7",
+        "Q9:Q12",
+        "I14:I17",
+        "B9:B12",
+        "G14:G17",
+        "F19:F22",
+        "G4:G7",
+        "A14:A17",
+        "P19:P22",
+        "A19:A22",
+        "H19:H22",
+        "K14:K17",
+        "W9:X9",
+        "I19:I22",
+        "C19:C22",
+        "K19:K22",
+        "A4:A7",
+        "D9:D12",
+        "F14:F17",
+        "I4:I7",
+        "F9:F12",
+        "K4:K7",
+        "A9:A12",
+        "W2:X2",
+        "D14:D17",
+        "I9:I12",
+        "B4:B7",
+        "AA2:AB2",
+        "G9:G12",
+        "K9:K12",
+        "H14:H17",
+        "U14:V14",
+        "W14:X14",
+        "U1:AB1",
+        "D19:D22",
+        "AA14:AB14",
+        "W19:X19",
+        "P14:P17",
+        "U4:V4"
+      ],
+      "rows": [
+        [
+          {
+            "cell": "A1",
+            "value": "Krankheitsbild",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "B1",
+            "value": "Stage",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "C1",
+            "value": "Übungsnummer",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "D1",
+            "value": "Sportw. Übungsname",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "E1",
+            "value": "Übungsausführung",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "F1",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "G1",
+            "value": "Equipment",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "H1",
+            "value": "Ausführliche Übungsbeschreibung - VoiceOver (DE)",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "I1",
+            "value": "Wiederholungen bei Vorzeigen der Übung. (Nicht wenn trainiert wird) ",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "J1",
+            "value": "Wiederholungen wenn mit dem Avatar trainiert wird ",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "K1",
+            "value": "Quick Info - VoiceOver (DE)",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "L1",
+            "value": "Schmerz",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "M1",
+            "value": "Handlung / Was passiert",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "N1",
+            "value": "Regression - VoiceOver (DE)",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "O1",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "P1",
+            "value": "Problembeschreibung bei Aufnahme",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Q1",
+            "value": "Problembeschreibung bei Software",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "R1",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "S1",
+            "value": "Kriterium",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "T1",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "U1",
+            "value": "Feedback (nach Wichtigkeit)",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "V1",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "W1",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "X1",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Y1",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Z1",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AA1",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AB1",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AC1",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AD1",
+            "value": "Abbruchkriterium",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AE1",
+            "value": null,
+            "fill_color": "00000000"
+          }
+        ],
+        [
+          {
+            "cell": "A2",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "B2",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "C2",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "D2",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "E2",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "F2",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "G2",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "H2",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "I2",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "J2",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "K2",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "L2",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "M2",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "N2",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "O2",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "P2",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Q2",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "R2",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "S2",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "T2",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "U2",
+            "value": 1,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "V2",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "W2",
+            "value": 2,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "X2",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Y2",
+            "value": 3,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Z2",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AA2",
+            "value": 4,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AB2",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AC2",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AD2",
+            "value": 1,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AE2",
+            "value": 2,
+            "fill_color": "00000000"
+          }
+        ],
+        [
+          {
+            "cell": "A3",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "B3",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "C3",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "D3",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "E3",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "F3",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "G3",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "H3",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "I3",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "J3",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "K3",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "L3",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "M3",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "N3",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "O3",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "P3",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Q3",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "R3",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "S3",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "T3",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "U3",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "V3",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "W3",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "X3",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Y3",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Z3",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AA3",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AB3",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AC3",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AD3",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AE3",
+            "value": null,
+            "fill_color": "00000000"
+          }
+        ],
+        [
+          {
+            "cell": "A4",
+            "value": "Unspezifischer Rückenschmerz",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "B4",
+            "value": 1,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "C4",
+            "value": "Übung 4",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "D4",
+            "value": "Jefferson Curl",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "E4",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "F4",
+            "value": "Seitlich",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "G4",
+            "value": "-",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "H4",
+            "value": "Diese Übung findet im Stehen statt. Du lässt die Arme locker nach unten hängen und rundest dann Stück für Stück die Wirbelsäule ein. Versuch dabei, mit den Händen so weit wie möglich Richtung Boden zu kommen. Dann richtest Du dich Stück für Stück wieder auf, bis Du wieder gerade stehst. Führe 5 Wiederholungen aus. ",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "I4",
+            "value": 2,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "J4",
+            "value": 5,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "K4",
+            "value": "Atme ruhig und gleichmäßig durch die Nase ein und durch den Mund aus.",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "L4",
+            "value": "0 = Schmerz",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "M4",
+            "value": "Alles okay, starte die nächste Übung oder es geht weiter mit der Übung, falls \"Schmerz\" gesagt wurde",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "N4",
+            "value": "-",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "O4",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "P4",
+            "value": "Die Arme verschwinden in den Oberschenkeln. Evntl. bei weiteren Aufnahmen die Arme mit etwas mehr Abstand vom Torso halten. Liegt eventuell auch an dem \"gut\" trainierten Modell, welches etwas mehr Muskelmasse mitbringt als unsere Stuntmodels :)",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Q4",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "R4",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "S4",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "T4",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "U4",
+            "value": "Entfernung Hand-Boden",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "V4",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "W4",
+            "value": "Rücken Krümmung",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "X4",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Y4",
+            "value": "Beine Hüft-/Schulterbreit",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Z4",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AA4",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AB4",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AC4",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AD4",
+            "value": "Asymmetrie Handhöhe >15cm",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AE4",
+            "value": "Asymmetrie Handbreite / Hände parallel, Hand-Schulter Winkel",
+            "fill_color": "00000000"
+          }
+        ],
+        [
+          {
+            "cell": "A5",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "B5",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "C5",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "D5",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "E5",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "F5",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "G5",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "H5",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "I5",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "J5",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "K5",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "L5",
+            "value": "1 < Schmerz <= 3",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "M5",
+            "value": "PopUp und Voice Over, dann nächste Übung oder es geht weiter mit der Übung, falls \"Schmerz\" gesagt wurde. \"Okay\" Button für weiter",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "N5",
+            "value": "Ein leichter Schmerz oder ein unangenehmes Gefühl, ist noch im akzeptablen Bereich. Wenn es jedoch stärker wird oder Du Dir unsicher bist, wie Du das Schmerzgefühl bewerten sollst, kannst Du selbstverständlich jederzeit sofort abbrechen und Deinen Trainer rufen. Okay, lass uns weiter machen.",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "O5",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "P5",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Q5",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "R5",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "S5",
+            "value": "Kriterium 1",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "T5",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "U5",
+            "value": "Hände über Knie",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "V5",
+            "value": "\"Versuche mit den Händen noch etwas tiefer zu kommen\"",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "W5",
+            "value": "Seitliches Tracking: Winkel Hüfte ",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "X5",
+            "value": "\"Bringe das Kinn zur Brust. Das hilft, die gesamte Wirbelsäule von oben nach unten einzurunden.\"",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Y5",
+            "value": "Abweichung Hüft-/Fußwinkel > 10° ",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Z5",
+            "value": "\"Bringe die Füße etwas näher zusammen, sodass Du etwa hüftbreit stehst.\"",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AA5",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AB5",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AC5",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AD5",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AE5",
+            "value": null,
+            "fill_color": "00000000"
+          }
+        ],
+        [
+          {
+            "cell": "A6",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "B6",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "C6",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "D6",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "E6",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "F6",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "G6",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "H6",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "I6",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "J6",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "K6",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "L6",
+            "value": "3 < Schmerz < 8",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "M6",
+            "value": "Regressionsübung: Starte die gleiche Animation (ohne Beispiel) mit aktualisiertem Regressions VoiceOver als Erklärung",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "N6",
+            "value": "Wie ich sehe, hast Du Dich bei der Übung noch nicht wohlgefühlt und Schmerzen verspürt. Lass es uns noch einmal etwas vereinfacht versuchen. Probiere die Übung nochmal mit verringertem Bewegungsradius. Beuge dich nur so weit nach vorn, wie es schmerzfrei möglich ist, bevor Du dich wieder aufrichtest.",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "O6",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "P6",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Q6",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "R6",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "S6",
+            "value": "Kriterium 2",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "T6",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "U6",
+            "value": "Hände unter Knie",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "V6",
+            "value": "\"Sehr gut, wenn Du Dich gut fühlst, versuche mit den Händen noch etwas tiefer zu kommen\"",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "W6",
+            "value": "Seitliches Tracking: Winkel Kopf ",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "X6",
+            "value": "\"Bringe das Kinn zur Brust. Das hilft, die gesamte Wirbelsäule von oben nach unten einzurunden.\"",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Y6",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Z6",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AA6",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AB6",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AC6",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AD6",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AE6",
+            "value": null,
+            "fill_color": "00000000"
+          }
+        ],
+        [
+          {
+            "cell": "A7",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "B7",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "C7",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "D7",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "E7",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "F7",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "G7",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "H7",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "I7",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "J7",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "K7",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "L7",
+            "value": "8 < Schmerz <= 10",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "M7",
+            "value": "Trainer rufen PopUp, bei okay MainMenu",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "N7",
+            "value": "Wenn Du so starke Schmerzen hast, dann unterbreche bitte Dein Training und rufe Deinen Trainer oder Deine Trainerin. ",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "O7",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "P7",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Q7",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "R7",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "S7",
+            "value": "Kriterium 3",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "T7",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "U7",
+            "value": "Hände unter Mitte Knie & Sprunggelenk",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "V7",
+            "value": "\"Du machst das sehr gut\"",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "W7",
+            "value": "Frontal: Fläche Schulter-Hüfte",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "X7",
+            "value": "\"Bringe das Kinn zur Brust. Das hilft, die gesamte Wirbelsäule von oben nach unten einzurunden.\"",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Y7",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Z7",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AA7",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AB7",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AC7",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AD7",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AE7",
+            "value": null,
+            "fill_color": "00000000"
+          }
+        ],
+        [
+          {
+            "cell": "A8",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "B8",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "C8",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "D8",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "E8",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "F8",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "G8",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "H8",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "I8",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "J8",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "K8",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "L8",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "M8",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "N8",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "O8",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "P8",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Q8",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "R8",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "S8",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "T8",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "U8",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "V8",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "W8",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "X8",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Y8",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Z8",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AA8",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AB8",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AC8",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AD8",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AE8",
+            "value": null,
+            "fill_color": "00000000"
+          }
+        ],
+        [
+          {
+            "cell": "A9",
+            "value": "Unspezifischer Rückenschmerz",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "B9",
+            "value": 1,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "C9",
+            "value": "Übung 13",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "D9",
+            "value": "Stehende Rotation mit hin her schwingen ",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "E9",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "F9",
+            "value": "Frontal",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "G9",
+            "value": "-",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "H9",
+            "value": "Bei dieser Übung geht es um die Rotation im Oberkörper. Schwinge die Arme möglichst weit hin und her, indem Du den Oberkörper dynamisch rotierst. Führe die Bewegung insgesamt 10 mal aus.",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "I9",
+            "value": "5x pro Seite",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "J9",
+            "value": "10 pro Seite",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "K9",
+            "value": "Rotiere möglichst viel aus dem Oberkörper und wenig mit dem Becken.",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "L9",
+            "value": "0 = Schmerz",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "M9",
+            "value": "Alles okay, starte nächste Übung",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "N9",
+            "value": "-",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "O9",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "P9",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Q9",
+            "value": "Avatar slidet etwas von rechts nach links beim Schwingen",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "R9",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "S9",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "T9",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "U9",
+            "value": "Winkel Hand-Schulter & Schulter-Hüfte",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "V9",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "W9",
+            "value": "Beine Hüft-/Schulterbreit",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "X9",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Y9",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Z9",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AA9",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AB9",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AC9",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AD9",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AE9",
+            "value": null,
+            "fill_color": "00000000"
+          }
+        ],
+        [
+          {
+            "cell": "A10",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "B10",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "C10",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "D10",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "E10",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "F10",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "G10",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "H10",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "I10",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "J10",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "K10",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "L10",
+            "value": "1 < Schmerz <= 3",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "M10",
+            "value": "PopUp und Voice Over, dann nächste Übung oder es geht weiter mit der Übung, falls \"Schmerz\" gesagt wurde. \"Okay\" Button für weiter",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "N10",
+            "value": "Ein leichter Schmerz oder ein unangenehmes Gefühl, ist noch im akzeptablen Bereich. Wenn es jedoch stärker wird oder Du Dir unsicher bist, wie Du das Schmerzgefühl bewerten sollst, kannst Du selbstverständlich jederzeit sofort abbrechen und Deinen Trainer rufen. Okay, lass uns weiter machen.",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "O10",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "P10",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Q10",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "R10",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "S10",
+            "value": "Kriterium 1",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "T10",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "U10",
+            "value": "20° < Winkel <70°",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "V10",
+            "value": "<20°: \"Spreize die Arme etwas weiter vom Körper ab. Das ermöglicht dir mehr Rotation.\"; >70°: \"Senke die Arme etwas ab. Das reduziert die Spannung und ermöglicht dir mehr Rotation.\"",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "W10",
+            "value": "Abweichung Hüft-/Fußwinkel > 20° ",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "X10",
+            "value": "\"Bringe die Füße etwas näher zusammen, sodass Du etwa hüftbreit stehst.\"",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Y10",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Z10",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AA10",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AB10",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AC10",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AD10",
+            "value": "Abstand Schulter-Fußgelenk",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AE10",
+            "value": null,
+            "fill_color": "00000000"
+          }
+        ],
+        [
+          {
+            "cell": "A11",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "B11",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "C11",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "D11",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "E11",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "F11",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "G11",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "H11",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "I11",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "J11",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "K11",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "L11",
+            "value": "3 < Schmerz < 8",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "M11",
+            "value": "Regressionsübung: Starte die gleiche Animation (ohne Beispiel) mit aktualisiertem Regressions VoiceOver als Erklärung",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "N11",
+            "value": "Wie ich sehe, hast Du Dich bei der Übung noch nicht wohlgefühlt und Schmerzen verspürt. Lass es uns noch einmal etwas vereinfacht versuchen. Probiere die Übung nochmal und rotiere dabei etwas langsamer. Dadurch kannst Du es besser kontrollieren, im schmerzfreien Bewegungsumfang zu bleiben.",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "O11",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "P11",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Q11",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "R11",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "S11",
+            "value": "Kriterium 2",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "T11",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "U11",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "V11",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "W11",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "X11",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Y11",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Z11",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AA11",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AB11",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AC11",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AD11",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AE11",
+            "value": null,
+            "fill_color": "00000000"
+          }
+        ],
+        [
+          {
+            "cell": "A12",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "B12",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "C12",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "D12",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "E12",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "F12",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "G12",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "H12",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "I12",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "J12",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "K12",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "L12",
+            "value": "8 < Schmerz <= 10",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "M12",
+            "value": "Trainer rufen PopUp, bei okay MainMenu",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "N12",
+            "value": "Wenn Du so starke Schmerzen hast, dann unterbreche bitte Dein Training und rufe Deinen Trainer oder Deine Trainerin. ",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "O12",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "P12",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Q12",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "R12",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "S12",
+            "value": "Kriterium 3",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "T12",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "U12",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "V12",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "W12",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "X12",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Y12",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Z12",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AA12",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AB12",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AC12",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AD12",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AE12",
+            "value": null,
+            "fill_color": "00000000"
+          }
+        ],
+        [
+          {
+            "cell": "A13",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "B13",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "C13",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "D13",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "E13",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "F13",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "G13",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "H13",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "I13",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "J13",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "K13",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "L13",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "M13",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "N13",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "O13",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "P13",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Q13",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "R13",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "S13",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "T13",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "U13",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "V13",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "W13",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "X13",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Y13",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Z13",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AA13",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AB13",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AC13",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AD13",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AE13",
+            "value": null,
+            "fill_color": "00000000"
+          }
+        ],
+        [
+          {
+            "cell": "A14",
+            "value": "Unspezifischer Rückenschmerz\n\n(& Kniearthrose)",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "B14",
+            "value": 2,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "C14",
+            "value": "Übung 4",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "D14",
+            "value": "Kniebeuge",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "E14",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "F14",
+            "value": "Frontal",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "G14",
+            "value": "-",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "H14",
+            "value": "Nun machen wir eine einfache Kniebeuge. Achte dabei darauf, dass deine Fersen die ganze Zeit auf dem Boden bleiben. Streck' die Arme nach vorn; das hilft bei der Bewegung. Führe 10 Wiederholungen aus.",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "I14",
+            "value": 5,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "J14",
+            "value": 10,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "K14",
+            "value": "Halte dich, wenn nötig, zur Sicherheit an einem stabilen Gegenstand fest, zum Beispiel an einem Tisch vor dir.",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "L14",
+            "value": "0 = Schmerz",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "M14",
+            "value": "Alles okay, starte nächste Übung",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "N14",
+            "value": "-",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "O14",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "P14",
+            "value": "Hände glitchen in Oberschenkel, aber die Animation sieht sehr sauber aus",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Q14",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "R14",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "S14",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "T14",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "U14",
+            "value": "Veränderung Kniegelenk während der Ausführung",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "V14",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "W14",
+            "value": "Ferse auf den Boden",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "X14",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Y14",
+            "value": "Höhe Hüfte / Winkel Knie-Hüfte",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Z14",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AA14",
+            "value": "Abstand Hüfte-Hand",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AB14",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AC14",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AD14",
+            "value": "Veränderung Kniegelenk während der Ausführung",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AE14",
+            "value": null,
+            "fill_color": "00000000"
+          }
+        ],
+        [
+          {
+            "cell": "A15",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "B15",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "C15",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "D15",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "E15",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "F15",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "G15",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "H15",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "I15",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "J15",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "K15",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "L15",
+            "value": "1 < Schmerz <= 3",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "M15",
+            "value": "PopUp und Voice Over, dann nächste Übung oder es geht weiter mit der Übung, falls \"Schmerz\" gesagt wurde. \"Okay\" Button für weiter",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "N15",
+            "value": "Ein leichter Schmerz oder ein unangenehmes Gefühl, ist noch im akzeptablen Bereich. Wenn es jedoch stärker wird oder Du Dir unsicher bist, wie Du das Schmerzgefühl bewerten sollst, kannst Du selbstverständlich jederzeit sofort abbrechen und Deinen Trainer rufen. Okay, lass uns weiter machen.",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "O15",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "P15",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Q15",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "R15",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "S15",
+            "value": "Kriterium 1",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "T15",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "U15",
+            "value": "Relativer Abstand Knie >15cm",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "V15",
+            "value": "ABBRUCH",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "W15",
+            "value": "KI Trainieren / optimieren mit falschen Bildern",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "X15",
+            "value": "\"Achte darauf, dass du die Fersen während der gesamten Bewegung am Boden hältst.\"",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Y15",
+            "value": "Höhe Hüfte auf Knie Höhe\nKnie Winkel ca. 90°",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Z15",
+            "value": "\"Versuche, noch etwas tiefer nach unten zu kommen, bis dein Oberschenkel parallel zum Boden ist.\"",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AA15",
+            "value": "Hände parallel zu Boden\nHand auf Schulterhöhe\n90° nach vorne",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AB15",
+            "value": "\"Strecke die Arme ungefähr auf Schulterhöhe gerade nach vorn aus\"",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AC15",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AD15",
+            "value": "Relativer Abstand Knie >15cm",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AE15",
+            "value": null,
+            "fill_color": "00000000"
+          }
+        ],
+        [
+          {
+            "cell": "A16",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "B16",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "C16",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "D16",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "E16",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "F16",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "G16",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "H16",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "I16",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "J16",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "K16",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "L16",
+            "value": "3 < Schmerz < 8",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "M16",
+            "value": "Regressionsübung: Starte die alternative Animation (mit Beispiel) mit aktualisiertem Regressions VoiceOver als Erklärung und neuer QuickInfo",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "N16",
+            "value": "-",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "O16",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "P16",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Q16",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "R16",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "S16",
+            "value": "Kriterium 2",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "T16",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "U16",
+            "value": "Relativer Abstand Knie \n>10cm & <15cm",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "V16",
+            "value": "\"Versuche, die Knie während der Bewegung ungefähr in Richtung Fußspitzen zu orientieren.\"",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "W16",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "X16",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Y16",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Z16",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AA16",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AB16",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AC16",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AD16",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AE16",
+            "value": null,
+            "fill_color": "00000000"
+          }
+        ],
+        [
+          {
+            "cell": "A17",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "B17",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "C17",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "D17",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "E17",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "F17",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "G17",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "H17",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "I17",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "J17",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "K17",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "L17",
+            "value": "8 < Schmerz <= 10",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "M17",
+            "value": "Trainer rufen PopUp, bei okay MainMenu",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "N17",
+            "value": "Wenn Du so starke Schmerzen hast, dann unterbreche bitte Dein Training und rufe Deinen Trainer oder Deine Trainerin. ",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "O17",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "P17",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Q17",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "R17",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "S17",
+            "value": "Kriterium 3",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "T17",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "U17",
+            "value": "Relativer Abstand Knie <5cm",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "V17",
+            "value": "\"Du machst das sehr gut\"",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "W17",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "X17",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Y17",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Z17",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AA17",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AB17",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AC17",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AD17",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AE17",
+            "value": null,
+            "fill_color": "00000000"
+          }
+        ],
+        [
+          {
+            "cell": "A18",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "B18",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "C18",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "D18",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "E18",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "F18",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "G18",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "H18",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "I18",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "J18",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "K18",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "L18",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "M18",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "N18",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "O18",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "P18",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Q18",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "R18",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "S18",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "T18",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "U18",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "V18",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "W18",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "X18",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Y18",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Z18",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AA18",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AB18",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AC18",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AD18",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AE18",
+            "value": null,
+            "fill_color": "00000000"
+          }
+        ],
+        [
+          {
+            "cell": "A19",
+            "value": "Kniearthrose",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "B19",
+            "value": 2,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "C19",
+            "value": "Übung 6",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "D19",
+            "value": "Wandsitz",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "E19",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "F19",
+            "value": "Seitlich",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "G19",
+            "value": "Wand ",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "H19",
+            "value": "Wie ich sehe, hast Du dich bei der Übung noch nicht wohlgefühlt und Schmerzen verspürt. Lass es uns noch einmal etwas vereinfacht versuchen. Lehne dich mit dem Rücken an der Wand an und beuge dann die Knie, bis sich deine Oberschenkel parallel zum Boden befinden. Halte diese Position für die angegebene Zeit.",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "I19",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "J19",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "K19",
+            "value": "Versuche, einen Winkel von 90 Grad im Kniegelenk zu erreichen und zu halten. Halte deine Arme vor dem Körper oder stütze sie an der Wand ab.",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "L19",
+            "value": "0 = Schmerz",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "M19",
+            "value": "Alles okay, Training ist beendet oder fortsetzen, falls \"Schmerz\" gesagt wurde",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "N19",
+            "value": "-",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "O19",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "P19",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Q19",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "R19",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "S19",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "T19",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "U19",
+            "value": "Veränderung Kniegelenk während der Ausführung",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "V19",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "W19",
+            "value": "Ferse auf den Boden",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "X19",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Y19",
+            "value": "Höhe Hüfte / Winkel Knie-Hüfte",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Z19",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AA19",
+            "value": "Abstand Hüfte-Hand",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AB19",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AC19",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AD19",
+            "value": "Veränderung Kniegelenk während der Ausführung",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AE19",
+            "value": null,
+            "fill_color": "00000000"
+          }
+        ],
+        [
+          {
+            "cell": "A20",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "B20",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "C20",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "D20",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "E20",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "F20",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "G20",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "H20",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "I20",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "J20",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "K20",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "L20",
+            "value": "1 < Schmerz <= 3",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "M20",
+            "value": "PopUp und Voice Over, dann nächste Übung oder es geht weiter mit der Übung, falls \"Schmerz\" gesagt wurde. \"Okay\" Button für weiter",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "N20",
+            "value": "Ein leichter Schmerz oder ein unangenehmes Gefühl, ist noch im akzeptablen Bereich. Wenn es jedoch stärker wird oder Du Dir unsicher bist, wie Du das Schmerzgefühl bewerten sollst, kannst Du selbstverständlich jederzeit sofort abbrechen und Deinen Trainer rufen. Okay, lass uns weiter machen.",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "O20",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "P20",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Q20",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "R20",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "S20",
+            "value": "Kriterium 1",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "T20",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "U20",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "V20",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "W20",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "X20",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Y20",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Z20",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AA20",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AB20",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AC20",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AD20",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AE20",
+            "value": null,
+            "fill_color": "00000000"
+          }
+        ],
+        [
+          {
+            "cell": "A21",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "B21",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "C21",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "D21",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "E21",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "F21",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "G21",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "H21",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "I21",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "J21",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "K21",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "L21",
+            "value": "3 < Schmerz < 8",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "M21",
+            "value": "Regressionsübung: Starte die gleiche Animation (ohne Beispiel) mit aktualisiertem Regressions VoiceOver als Erklärung",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "N21",
+            "value": "Wie ich sehe, hast Du Dich bei der Übung noch nicht wohlgefühlt und Schmerzen verspürt. Lass es uns noch einmal etwas vereinfacht versuchen. Probiere die Übung nochmal aber gehe diesmal nicht so weit nach unten. Indem Du die Knie weniger beugst, kannst Du erstmal in einem schmerzfreien Bewegungsumfang bleiben.",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "O21",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "P21",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Q21",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "R21",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "S21",
+            "value": "Kriterium 2",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "T21",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "U21",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "V21",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "W21",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "X21",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Y21",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Z21",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AA21",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AB21",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AC21",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AD21",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AE21",
+            "value": null,
+            "fill_color": "00000000"
+          }
+        ],
+        [
+          {
+            "cell": "A22",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "B22",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "C22",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "D22",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "E22",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "F22",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "G22",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "H22",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "I22",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "J22",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "K22",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "L22",
+            "value": "8 < Schmerz <= 10",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "M22",
+            "value": "Trainer rufen PopUp, bei okay MainMenu",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "N22",
+            "value": "Wenn Du so starke Schmerzen hast, dann unterbreche bitte Dein Training und rufe Deinen Trainer oder Deine Trainerin. ",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "O22",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "P22",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Q22",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "R22",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "S22",
+            "value": "Kriterium 3",
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "T22",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "U22",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "V22",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "W22",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "X22",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Y22",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Z22",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AA22",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AB22",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AC22",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AD22",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AE22",
+            "value": null,
+            "fill_color": "00000000"
+          }
+        ],
+        [
+          {
+            "cell": "A23",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "B23",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "C23",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "D23",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "E23",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "F23",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "G23",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "H23",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "I23",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "J23",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "K23",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "L23",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "M23",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "N23",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "O23",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "P23",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Q23",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "R23",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "S23",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "T23",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "U23",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "V23",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "W23",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "X23",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Y23",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Z23",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AA23",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AB23",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AC23",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AD23",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AE23",
+            "value": null,
+            "fill_color": "00000000"
+          }
+        ],
+        [
+          {
+            "cell": "A24",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "B24",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "C24",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "D24",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "E24",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "F24",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "G24",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "H24",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "I24",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "J24",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "K24",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "L24",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "M24",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "N24",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "O24",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "P24",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Q24",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "R24",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "S24",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "T24",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "U24",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "V24",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "W24",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "X24",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Y24",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Z24",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AA24",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AB24",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AC24",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AD24",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AE24",
+            "value": null,
+            "fill_color": "00000000"
+          }
+        ],
+        [
+          {
+            "cell": "A25",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "B25",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "C25",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "D25",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "E25",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "F25",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "G25",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "H25",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "I25",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "J25",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "K25",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "L25",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "M25",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "N25",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "O25",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "P25",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Q25",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "R25",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "S25",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "T25",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "U25",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "V25",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "W25",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "X25",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Y25",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "Z25",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AA25",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AB25",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AC25",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AD25",
+            "value": null,
+            "fill_color": "00000000"
+          },
+          {
+            "cell": "AE25",
+            "value": null,
+            "fill_color": "00000000"
+          }
+        ]
+      ]
+    }
+  }
+}
