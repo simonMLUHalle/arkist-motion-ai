@@ -129,11 +129,13 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      aspect-ratio: 4 / 5;
     }
     .media-media {
       width: 100%;
+      height: 100%;
       max-height: 100%;
-      height: auto;
+      object-fit: contain;
       display: block;
       background: #fff;
     }
@@ -300,6 +302,40 @@
       .roadmap-grid {
         grid-template-columns: 1fr;
       }
+      .stage {
+        grid-template-columns: 1fr;
+      }
+    }
+    @media (max-width: 720px) {
+      main {
+        padding: 18px 14px 28px;
+      }
+      h1 {
+        font-size: 28px;
+      }
+      .intro {
+        font-size: 16px;
+      }
+      .panel-head {
+        padding: 16px 16px 10px;
+      }
+      .gate {
+        padding: 12px 16px;
+      }
+      .stage {
+        padding: 12px;
+        min-height: unset;
+      }
+      .media {
+        min-height: 420px;
+        aspect-ratio: auto;
+      }
+      .stage-card {
+        padding: 14px;
+      }
+      .feedback {
+        padding: 16px;
+      }
     }
   </style>
 </head>
@@ -343,7 +379,7 @@
         <div class="gate"><strong>Qualitaets-Gate:</strong> Bewegung erkannt. Korrekturhinweise vor der naechsten Wiederholung beachten.</div>
         <div class="stage">
           <div class="media">
-            <video class="media-media demo-video" autoplay loop muted playsinline preload="auto" poster="../jefferson_demo/jefferson_benchmark_poster.png">
+            <video class="media-media demo-video" autoplay loop muted playsinline preload="metadata" poster="../jefferson_demo/jefferson_benchmark_poster.png">
               <source src="videos/jefferson.mp4" type="video/mp4">
             </video>
           </div>
@@ -401,7 +437,7 @@
         <div class="gate"><strong>Qualitaets-Gate:</strong> Bewegung erkannt. Korrekturhinweise vor der naechsten Wiederholung beachten.</div>
         <div class="stage">
           <div class="media">
-            <video class="media-media demo-video" autoplay loop muted playsinline preload="auto" poster="../squat_demo/squat_benchmark_poster.png">
+            <video class="media-media demo-video" autoplay loop muted playsinline preload="metadata" poster="../squat_demo/squat_benchmark_poster.png">
               <source src="videos/squat.mp4" type="video/mp4">
             </video>
           </div>
@@ -468,10 +504,16 @@
     function startCycle(root, clip) {
       const video = root.querySelector(".demo-video");
       if (video) {
-        video.load();
-        const promise = video.play();
-        if (promise && typeof promise.catch === "function") {
-          promise.catch(() => {});
+        const tryPlay = () => {
+          const promise = video.play();
+          if (promise && typeof promise.catch === "function") {
+            promise.catch(() => {});
+          }
+        };
+        if (video.readyState >= 2) {
+          tryPlay();
+        } else {
+          video.addEventListener("loadeddata", tryPlay, { once: true });
         }
       }
     }
