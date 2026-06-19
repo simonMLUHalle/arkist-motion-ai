@@ -569,9 +569,14 @@
               </div>
               <div class="compare-card">
                 <div class="compare-media">
-                  <video class="media-media demo-video" data-file-fallback="videos/jefferson_combined_file.gif" autoplay loop muted playsinline webkit-playsinline preload="auto" poster="../jefferson_demo/jefferson_benchmark_poster.png">
-                    <source src="videos/jefferson_combined.mp4" type="video/mp4">
-                  </video>
+                  <img
+                    class="media-media frame-sequence"
+                    src="frame_sequences/jefferson/frame_0000.jpg"
+                    data-frame-dir="frame_sequences/jefferson"
+                    data-frame-count="360"
+                    data-frame-fps="18"
+                    alt="Jefferson-Curl Sequenz mit Original und Analyse"
+                  >
                 </div>
                 <div class="compare-foot">
                   Vollstaendige Sequenz: links Original, rechts Analyse.
@@ -673,9 +678,14 @@
               </div>
               <div class="compare-card">
                 <div class="compare-media">
-                  <video class="media-media demo-video" data-file-fallback="videos/squat_combined_file.gif" autoplay loop muted playsinline webkit-playsinline preload="auto" poster="../squat_demo/squat_benchmark_poster.png">
-                    <source src="videos/squat_combined.mp4" type="video/mp4">
-                  </video>
+                  <img
+                    class="media-media frame-sequence"
+                    src="frame_sequences/squat/frame_0000.jpg"
+                    data-frame-dir="frame_sequences/squat"
+                    data-frame-count="161"
+                    data-frame-fps="18"
+                    alt="Squat-Sequenz mit Original und Analyse"
+                  >
                 </div>
                 <div class="compare-foot">
                   Vollstaendige Sequenz: links Original, rechts Analyse.
@@ -757,75 +767,62 @@
   </main>
   <script>
     const clips = [{"name": "jefferson", "title": "Jefferson Curl", "exercise": "Seitansicht", "gif": "../jefferson_demo/jefferson_benchmark_demo.gif", "mp4": "videos/jefferson.mp4", "poster": "../jefferson_demo/jefferson_benchmark_poster.png", "gate": "Bewegung erkannt. Korrekturhinweise vor der naechsten Wiederholung beachten.", "focus": "Kopfhaltung in der Vorbeuge verbessern.", "quality_summary": "quality warning detected", "event": "Die Handfuehrung wirkt zeitweise ungleichmaessig. Beide Seiten moeglichst parallel fuehren.", "badge": "CHECK", "badge_color": "#b45309", "encouragement": "Die Vorbeuge wirkt bereits engagiert. Der naechste Fortschritt liegt eher in ruhigerer Symmetrie als in mehr Tiefe.", "technical_feedback": ["Beide Haende moeglichst gleichmaessig Richtung Fuesse fuehren.", "Kinn sanft zur Brust und den Nacken aktiv in die Vorbeuge mitnehmen."], "psychological_feedback": ["Die aktuelle Tiefe ist bereits eine brauchbare Grundlage."], "safety_feedback": ["Nur in einem Bereich arbeiten, der sich kontrolliert und schmerzfrei anfuehlt."], "therapy_feedback": ["Beide Haende moeglichst gleichmaessig Richtung Fuesse fuehren.", "Kinn sanft zur Brust und den Nacken aktiv in die Vorbeuge mitnehmen.", "Die aktuelle Tiefe ist bereits eine brauchbare Grundlage.", "Nur in einem Bereich arbeiten, der sich kontrolliert und schmerzfrei anfuehlt."], "pattern_observations": ["Setup- bzw. Ausgangsphase wird stabil wiedergefunden.", "Aktive Bewegungsphasen werden als eigener Zustand getrennt erkannt.", "Der Ablauf zeigt die Struktur Start, Bewegung und Rueckkehr."], "pattern_risks": ["Keine dominante kritische Bewegungsphase, eher punktuelle Korrekturen."], "pattern_guidance": ["Zustandswechsel direkt in Live-Feedback und Warnlogik einspeisen.", "Personenbezogene Baselines statt fixer Grenzwerte aufbauen."]}, {"name": "squat", "title": "Squat", "exercise": "Frontalansicht", "gif": "../squat_demo/squat_benchmark_demo.gif", "mp4": "videos/squat.mp4", "poster": "../squat_demo/squat_benchmark_poster.png", "gate": "Bewegung erkannt. Korrekturhinweise vor der naechsten Wiederholung beachten.", "focus": "Bewegungstiefe mit stabiler Achse erweitern.", "quality_summary": "quality warning detected", "event": "Die Kniebeuge wirkt eher flach. Die Huefte kann kontrolliert noch etwas tiefer gefuehrt werden.", "badge": "CHECK", "badge_color": "#b45309", "encouragement": "Die Kniebeuge ist als Ausgangspunkt gut nutzbar. Der naechste Fortschritt liegt in etwas mehr Tiefe bei stabilerer Achse.", "technical_feedback": ["Knie stabil ueber dem Fuss halten, mit etwas mehr Aufmerksamkeit auf der Seite rechts.", "Die Huefte kann kontrolliert noch etwas tiefer gefuehrt werden."], "psychological_feedback": ["Die Bewegung ist als Trainingsbasis bereits gut nutzbar."], "safety_feedback": ["Bei nachlassender Kniekontrolle zuerst Stabilitaet verbessern und erst danach mehr Tiefe suchen."], "therapy_feedback": ["Knie stabil ueber dem Fuss halten, mit etwas mehr Aufmerksamkeit auf der Seite rechts.", "Die Huefte kann kontrolliert noch etwas tiefer gefuehrt werden.", "Die Bewegung ist als Trainingsbasis bereits gut nutzbar.", "Bei nachlassender Kniekontrolle zuerst Stabilitaet verbessern und erst danach mehr Tiefe suchen."], "pattern_observations": ["Setup- bzw. Ausgangsphase wird stabil wiedergefunden.", "Aktive Bewegungsphasen werden als eigener Zustand getrennt erkannt.", "Der Ablauf zeigt die Struktur Start, Bewegung und Rueckkehr."], "pattern_risks": ["Keine dominante kritische Bewegungsphase, eher punktuelle Korrekturen."], "pattern_guidance": ["Zustandswechsel direkt in Live-Feedback und Warnlogik einspeisen.", "Personenbezogene Baselines statt fixer Grenzwerte aufbauen."]}];
-    const SHOWCASE_PLAYBACK_RATE = 2.85;
-
-    function installFileFallback(root) {
-      if (window.location.protocol !== "file:") return;
-
-      root.querySelectorAll(".demo-video").forEach((video) => {
-        const fallbackSrc = video.dataset.fileFallback;
-        if (!fallbackSrc) return;
-
-        const img = document.createElement("img");
-        img.className = video.className;
-        img.src = fallbackSrc;
-        img.alt = "Sequenzansicht mit Original und Analyse";
-        img.decoding = "sync";
-        video.replaceWith(img);
-      });
+    function framePath(frameDir, index) {
+      return `${frameDir}/frame_${String(index).padStart(4, "0")}.jpg`;
     }
 
-    function startCycle(root, clip) {
-      const videos = Array.from(root.querySelectorAll(".demo-video"));
-      if (!videos.length) return;
+    function startSequence(img) {
+      const frameDir = img.dataset.frameDir;
+      const frameCount = Number.parseInt(img.dataset.frameCount || "0", 10);
+      const fps = Number.parseFloat(img.dataset.frameFps || "18");
+      if (!frameDir || !frameCount || !fps) return;
 
-      const tryPlay = (video) => {
-        video.muted = true;
-        video.defaultMuted = true;
-        video.autoplay = true;
-        video.loop = true;
-        video.playsInline = true;
-        video.setAttribute("muted", "");
-        video.setAttribute("autoplay", "");
-        video.setAttribute("loop", "");
-        video.setAttribute("playsinline", "");
-        video.setAttribute("webkit-playsinline", "");
-        video.playbackRate = SHOWCASE_PLAYBACK_RATE;
+      let frameIndex = 0;
+      let timerId = null;
+      const preloadWindow = 10;
+      const preloadCache = new Map();
 
-        const promise = video.play();
-        if (promise && typeof promise.catch === "function") {
-          promise.catch(() => {});
+      const preloadAround = (startIndex) => {
+        for (let offset = 1; offset <= preloadWindow; offset += 1) {
+          const nextIndex = (startIndex + offset) % frameCount;
+          if (preloadCache.has(nextIndex)) continue;
+          const preloadImg = new Image();
+          preloadImg.src = framePath(frameDir, nextIndex);
+          preloadCache.set(nextIndex, preloadImg);
         }
       };
 
-      videos.forEach((video) => {
-        if (video.readyState >= 1) {
-          tryPlay(video);
-        } else {
-          video.addEventListener("loadedmetadata", () => {
-            video.playbackRate = SHOWCASE_PLAYBACK_RATE;
-          }, { once: true });
-          video.addEventListener("canplay", () => {
-            tryPlay(video);
-          }, { once: true });
-        }
-      });
+      const renderFrame = () => {
+        img.src = framePath(frameDir, frameIndex);
+        preloadAround(frameIndex);
+        frameIndex = (frameIndex + 1) % frameCount;
+      };
 
-      const playAll = () => videos.forEach((video) => tryPlay(video));
+      const play = () => {
+        if (timerId !== null) return;
+        renderFrame();
+        timerId = window.setInterval(renderFrame, 1000 / fps);
+      };
 
-      window.addEventListener("pageshow", playAll);
+      const pause = () => {
+        if (timerId === null) return;
+        window.clearInterval(timerId);
+        timerId = null;
+      };
+
+      preloadAround(0);
+      if (document.readyState === "complete") play();
+      else window.addEventListener("load", play, { once: true });
+
+      window.addEventListener("pageshow", play);
       document.addEventListener("visibilitychange", () => {
-        if (!document.hidden) playAll();
+        if (document.hidden) pause();
+        else play();
       });
-
-      if (document.readyState === "complete") playAll();
-      else window.addEventListener("load", playAll, { once: true });
     }
 
-    document.querySelectorAll("[data-clip]").forEach((node) => {
-      const clip = clips.find((item) => item.name === node.dataset.clip);
-      installFileFallback(node);
-      if (clip) startCycle(node, clip);
+    document.querySelectorAll(".frame-sequence").forEach((img) => {
+      startSequence(img);
     });
   </script>
 </body>
