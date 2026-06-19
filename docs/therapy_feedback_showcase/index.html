@@ -111,11 +111,11 @@
     }
     .stage {
       padding: 14px;
-      background: #ece7dc;
+      background: #efebe2;
       min-height: 560px;
       display: grid;
-      grid-template-columns: minmax(0, 1.12fr) minmax(280px, 0.88fr);
-      gap: 14px;
+      grid-template-columns: 1fr;
+      gap: 12px;
       align-items: stretch;
     }
     .media {
@@ -141,6 +141,129 @@
       display: block;
       background: #fff;
     }
+    .tracking-strip {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+    .tracking-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 10px;
+      border-radius: 999px;
+      border: 1px solid #d7d0c2;
+      background: #fffdf8;
+      font-size: 12px;
+      line-height: 1;
+      color: #2b3440;
+      white-space: nowrap;
+    }
+    .live-dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 999px;
+      background: #16a34a;
+      box-shadow: 0 0 0 rgba(22, 163, 74, 0.4);
+      animation: livePulse 1.4s infinite;
+      flex: 0 0 auto;
+    }
+    .compare-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      width: 100%;
+      height: 100%;
+      align-items: stretch;
+    }
+    .compare-card {
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      border: 1px solid #ddd7ca;
+      border-radius: 6px;
+      background: #fff;
+      overflow: hidden;
+      min-width: 0;
+    }
+    .compare-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 9px 10px 8px;
+      border-bottom: 1px solid #ece6d8;
+      background: #fffdf8;
+    }
+    .compare-title {
+      font-size: 12px;
+      font-weight: 700;
+      color: #24303b;
+    }
+    .compare-subtitle {
+      font-size: 10px;
+      color: var(--muted);
+    }
+    .compare-media {
+      padding: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 430px;
+      background: #fff;
+    }
+    .compare-foot {
+      padding: 7px 10px 8px;
+      border-top: 1px solid #ece6d8;
+      font-size: 11px;
+      color: var(--muted);
+      line-height: 1.35;
+    }
+    .combined-head {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    .compare-metrics {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 6px 12px;
+      margin-top: 8px;
+    }
+    .compare-metric {
+      font-size: 11px;
+      line-height: 1.35;
+      color: #364152;
+    }
+    .compare-metric strong {
+      color: #111827;
+    }
+    .process-strip {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 8px;
+      margin-top: 2px;
+    }
+    .process-step {
+      border-radius: 6px;
+      padding: 9px 10px 10px;
+      background: #f7f4ec;
+      border: 1px solid #e0d9cb;
+      min-width: 0;
+    }
+    .process-step strong {
+      display: block;
+      font-size: 12px;
+      margin-bottom: 4px;
+      color: #1f2937;
+    }
+    .process-step span {
+      display: block;
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.35;
+    }
     .media-note {
       margin-top: 10px;
       color: var(--muted);
@@ -156,10 +279,10 @@
       background: #fffdf8;
       border: 1px solid #ded6c6;
       border-radius: 6px;
-      padding: 16px 16px 18px;
+      padding: 14px 16px 16px;
       display: flex;
       flex-direction: column;
-      gap: 12px;
+      gap: 10px;
       min-width: 0;
       width: 100%;
       max-width: 100%;
@@ -167,15 +290,21 @@
     }
     .stage-card h3 {
       margin: 0;
-      font-size: 18px;
+      font-size: 16px;
       overflow-wrap: anywhere;
     }
     .stage-card p {
       margin: 0;
-      font-size: 14px;
-      line-height: 1.4;
+      font-size: 15px;
+      line-height: 1.35;
       overflow-wrap: anywhere;
       word-break: break-word;
+    }
+    .stage-summary {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px 16px;
+      align-items: start;
     }
     .stage-card ul {
       margin: 0;
@@ -194,6 +323,11 @@
     .feedback {
       padding: 18px 20px 22px;
     }
+    .feedback-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px 16px;
+    }
     .feedback h3 {
       margin: 0 0 10px;
       font-size: 18px;
@@ -204,13 +338,16 @@
       line-height: 1.5;
     }
     .feedback-section + .feedback-section {
-      margin-top: 14px;
+      margin-top: 0;
     }
     .feedback-section h4 {
       margin: 0 0 8px;
-      font-size: 15px;
+      font-size: 14px;
       color: #364152;
       overflow-wrap: anywhere;
+    }
+    .feedback-section li {
+      font-size: 14px;
     }
     .feedback li + li {
       margin-top: 6px;
@@ -291,6 +428,17 @@
       padding-left: 18px;
       line-height: 1.45;
     }
+    @keyframes livePulse {
+      0% {
+        box-shadow: 0 0 0 0 rgba(22, 163, 74, 0.35);
+      }
+      70% {
+        box-shadow: 0 0 0 9px rgba(22, 163, 74, 0);
+      }
+      100% {
+        box-shadow: 0 0 0 0 rgba(22, 163, 74, 0);
+      }
+    }
     @media (max-width: 1120px) {
       .grid {
         grid-template-columns: 1fr;
@@ -308,6 +456,18 @@
         grid-template-columns: 1fr;
       }
       .stage {
+        grid-template-columns: 1fr;
+      }
+      .compare-grid {
+        grid-template-columns: 1fr;
+      }
+      .stage-summary {
+        grid-template-columns: 1fr;
+      }
+      .process-strip {
+        grid-template-columns: 1fr;
+      }
+      .feedback-grid {
         grid-template-columns: 1fr;
       }
     }
@@ -349,7 +509,7 @@
     <header>
       <h1>ARKIST Therapie-Feedback Demo</h1>
       <div class="intro">
-        Die Bewegung wird automatisch erkannt. Kritische Signale werden hier nicht als Endurteil gezeigt, sondern als Qualitaets-Gate fuer therapeutisches Feedback. Die Animation laeuft automatisch, danach folgt eine kurze Lesepause mit dem wichtigsten Korrekturhinweis.
+        Die Bewegung wird automatisch erkannt. Gezeigt wird hier eine live-nahe Replay-Demo auf Basis aufgezeichneter Smartphone-Daten. Kritische Signale erscheinen nicht als Endurteil, sondern als Qualitaets-Gate fuer therapeutisches Feedback.
       </div>
     </header>
     <section class="summary-band">
@@ -384,46 +544,92 @@
         <div class="gate"><strong>Qualitaets-Gate:</strong> Bewegung erkannt. Korrekturhinweise vor der naechsten Wiederholung beachten.</div>
         <div class="stage">
           <div class="media">
-            <video class="media-media demo-video" autoplay loop muted playsinline preload="metadata" poster="../jefferson_demo/jefferson_benchmark_poster.png">
-              <source src="videos/jefferson.mp4" type="video/mp4">
-            </video>
+            <div style="width:100%;">
+              <div class="tracking-strip">
+                <div class="tracking-chip"><span class="live-dot"></span><strong>Tracking:</strong> usable / 33 Landmarks</div>
+                <div class="tracking-chip"><span class="live-dot"></span><strong>Sequenz:</strong> vollstaendig</div>
+                <div class="tracking-chip"><span class="live-dot"></span><strong>Phase:</strong> Vorbeugephase erkannt</div>
+                <div class="tracking-chip"><span class="live-dot"></span><strong>Timing:</strong> 1:1 zwischen beiden Ansichten</div>
+              </div>
+              <div class="combined-head">
+                <div class="compare-head">
+                  <div>
+                    <div class="compare-title">Originalaufnahme</div>
+                    <div class="compare-subtitle">iPhone-Video als Eingangssignal</div>
+                  </div>
+                  <div class="badge" style="background:#475569">INPUT</div>
+                </div>
+                <div class="compare-head">
+                  <div>
+                    <div class="compare-title">Analyseansicht</div>
+                    <div class="compare-subtitle">Landmarks, Proxy-Mesh und live-nahe Bewertung</div>
+                  </div>
+                  <div class="badge" style="background:#b45309">LIVE</div>
+                </div>
+              </div>
+              <div class="compare-card">
+                <div class="compare-media">
+                  <video class="media-media demo-video" data-file-fallback="videos/jefferson_combined_file.gif" autoplay loop muted playsinline webkit-playsinline preload="auto" poster="../jefferson_demo/jefferson_benchmark_poster.png">
+                    <source src="videos/jefferson_combined.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="compare-foot">
+                  Vollstaendige Sequenz: links Original, rechts Analyse.
+                  <div class="compare-metrics">
+                    <div class="compare-metric"><strong>Tracking:</strong> usable</div>
+                    <div class="compare-metric"><strong>Frames:</strong> 1439</div>
+                    <div class="compare-metric"><strong>Vorbeuge:</strong> 4.04 Mittelwert</div>
+                    <div class="compare-metric"><strong>Kopf/Hals:</strong> 0.014 m Proxy</div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="stage-card">
-            <h3>Live-Interpretation</h3>
-            <p><strong>Qualitaetsstatus:</strong> CHECK</p>
-            <p><strong>Aktueller Fokus:</strong> Kopfhaltung in der Vorbeuge verbessern.</p>
+            <h3>Technische Interpretation</h3>
+            <div class="stage-summary">
+              <p><strong>Qualitaetsstatus:</strong> CHECK</p>
+              <p><strong>Aktueller Fokus:</strong> Kopfhaltung in der Vorbeuge verbessern.</p>
+            </div>
+            <div class="process-strip">
+              <div class="process-step"><strong>1. Videoeingang</strong><span>Aufgezeichnete Smartphone-Sequenz wird eingelesen.</span></div>
+              <div class="process-step"><strong>2. Tracking</strong><span>1439 Frames, usable, 30 fps Quelle.</span></div>
+              <div class="process-step"><strong>3. Feedback</strong><span>Haltungsregeln und Qualitaets-Gate werden direkt abgeleitet.</span></div>
+            </div>
             <div class="feedback-section">
               <h4>Technik</h4>
               <ul><li>Beide Haende moeglichst gleichmaessig Richtung Fuesse fuehren.</li><li>Kinn sanft zur Brust und den Nacken aktiv in die Vorbeuge mitnehmen.</li></ul>
             </div>
-            <div class="media-note">Die Animation laeuft direkt im Bildbereich und zeigt die vollstaendige Person.</div>
+            <div class="media-note">Original und Analyse zeigen die vollstaendige Sequenz in gleicher Zeitlogik.</div>
           </div>
         </div>
         <div class="feedback">
           <h3>Therapie-Feedback</h3>
-          <div class="feedback-section">
-            <h4>Technisches Haltungsfeedback</h4>
-            <ul><li>Beide Haende moeglichst gleichmaessig Richtung Fuesse fuehren.</li><li>Kinn sanft zur Brust und den Nacken aktiv in die Vorbeuge mitnehmen.</li></ul>
-          </div>
-          <div class="feedback-section">
-            <h4>Psychologisches Feedback</h4>
-            <ul><li>Die aktuelle Tiefe ist bereits eine brauchbare Grundlage.</li></ul>
-          </div>
-          <div class="feedback-section">
-            <h4>Sicherheitsfokus</h4>
-            <ul><li>Nur in einem Bereich arbeiten, der sich kontrolliert und schmerzfrei anfuehlt.</li></ul>
-          </div>
-          <div class="feedback-section">
-            <h4>Unsupervised Mustersignale</h4>
-            <ul><li>Setup- bzw. Ausgangsphase wird stabil wiedergefunden.</li><li>Aktive Bewegungsphasen werden als eigener Zustand getrennt erkannt.</li><li>Der Ablauf zeigt die Struktur Start, Bewegung und Rueckkehr.</li></ul>
-          </div>
-          <div class="feedback-section">
-            <h4>Musterrisiken</h4>
-            <ul><li>Keine dominante kritische Bewegungsphase, eher punktuelle Korrekturen.</li></ul>
-          </div>
-          <div class="feedback-section">
-            <h4>Naechster KI-Schritt</h4>
-            <ul><li>Zustandswechsel direkt in Live-Feedback und Warnlogik einspeisen.</li><li>Personenbezogene Baselines statt fixer Grenzwerte aufbauen.</li></ul>
+          <div class="feedback-grid">
+            <div class="feedback-section">
+              <h4>Technisches Haltungsfeedback</h4>
+              <ul><li>Beide Haende moeglichst gleichmaessig Richtung Fuesse fuehren.</li><li>Kinn sanft zur Brust und den Nacken aktiv in die Vorbeuge mitnehmen.</li></ul>
+            </div>
+            <div class="feedback-section">
+              <h4>Psychologisches Feedback</h4>
+              <ul><li>Die aktuelle Tiefe ist bereits eine brauchbare Grundlage.</li></ul>
+            </div>
+            <div class="feedback-section">
+              <h4>Sicherheitsfokus</h4>
+              <ul><li>Nur in einem Bereich arbeiten, der sich kontrolliert und schmerzfrei anfuehlt.</li></ul>
+            </div>
+            <div class="feedback-section">
+              <h4>Unsupervised Mustersignale</h4>
+              <ul><li>Setup- bzw. Ausgangsphase wird stabil wiedergefunden.</li><li>Aktive Bewegungsphasen werden als eigener Zustand getrennt erkannt.</li></ul>
+            </div>
+            <div class="feedback-section">
+              <h4>Musterrisiken</h4>
+              <ul><li>Keine dominante kritische Bewegungsphase, eher punktuelle Korrekturen.</li></ul>
+            </div>
+            <div class="feedback-section">
+              <h4>Naechster KI-Schritt</h4>
+              <ul><li>Zustandswechsel direkt in Live-Feedback und Warnlogik einspeisen.</li><li>Personenbezogene Baselines statt fixer Grenzwerte aufbauen.</li></ul>
+            </div>
           </div>
           <div class="focus"><strong>Primarer Korrekturpunkt:</strong> Kopfhaltung in der Vorbeuge verbessern.</div>
           <div class="encouragement"><strong>Motivierendes Feedback:</strong> Die Vorbeuge wirkt bereits engagiert. Der naechste Fortschritt liegt eher in ruhigerer Symmetrie als in mehr Tiefe.</div>
@@ -442,46 +648,92 @@
         <div class="gate"><strong>Qualitaets-Gate:</strong> Bewegung erkannt. Korrekturhinweise vor der naechsten Wiederholung beachten.</div>
         <div class="stage">
           <div class="media">
-            <video class="media-media demo-video" autoplay loop muted playsinline preload="metadata" poster="../squat_demo/squat_benchmark_poster.png">
-              <source src="videos/squat.mp4" type="video/mp4">
-            </video>
+            <div style="width:100%;">
+              <div class="tracking-strip">
+                <div class="tracking-chip"><span class="live-dot"></span><strong>Tracking:</strong> usable / 33 Landmarks</div>
+                <div class="tracking-chip"><span class="live-dot"></span><strong>Sequenz:</strong> vollstaendig</div>
+                <div class="tracking-chip"><span class="live-dot"></span><strong>Phase:</strong> Kniebeugephase erkannt</div>
+                <div class="tracking-chip"><span class="live-dot"></span><strong>Timing:</strong> 1:1 zwischen beiden Ansichten</div>
+              </div>
+              <div class="combined-head">
+                <div class="compare-head">
+                  <div>
+                    <div class="compare-title">Originalaufnahme</div>
+                    <div class="compare-subtitle">iPhone-Video als Eingangssignal</div>
+                  </div>
+                  <div class="badge" style="background:#475569">INPUT</div>
+                </div>
+                <div class="compare-head">
+                  <div>
+                    <div class="compare-title">Analyseansicht</div>
+                    <div class="compare-subtitle">Landmarks, Proxy-Mesh und live-nahe Bewertung</div>
+                  </div>
+                  <div class="badge" style="background:#b45309">LIVE</div>
+                </div>
+              </div>
+              <div class="compare-card">
+                <div class="compare-media">
+                  <video class="media-media demo-video" data-file-fallback="videos/squat_combined_file.gif" autoplay loop muted playsinline webkit-playsinline preload="auto" poster="../squat_demo/squat_benchmark_poster.png">
+                    <source src="videos/squat_combined.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="compare-foot">
+                  Vollstaendige Sequenz: links Original, rechts Analyse.
+                  <div class="compare-metrics">
+                    <div class="compare-metric"><strong>Tracking:</strong> usable</div>
+                    <div class="compare-metric"><strong>Frames:</strong> 644</div>
+                    <div class="compare-metric"><strong>Tiefe:</strong> too shallow</div>
+                    <div class="compare-metric"><strong>Knieachse:</strong> 0.181 Mittelwert</div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="stage-card">
-            <h3>Live-Interpretation</h3>
-            <p><strong>Qualitaetsstatus:</strong> CHECK</p>
-            <p><strong>Aktueller Fokus:</strong> Bewegungstiefe mit stabiler Achse erweitern.</p>
+            <h3>Technische Interpretation</h3>
+            <div class="stage-summary">
+              <p><strong>Qualitaetsstatus:</strong> CHECK</p>
+              <p><strong>Aktueller Fokus:</strong> Bewegungstiefe mit stabiler Achse erweitern.</p>
+            </div>
+            <div class="process-strip">
+              <div class="process-step"><strong>1. Videoeingang</strong><span>Aufgezeichnete Smartphone-Sequenz wird eingelesen.</span></div>
+              <div class="process-step"><strong>2. Tracking</strong><span>644 Frames, usable, 30 fps Quelle.</span></div>
+              <div class="process-step"><strong>3. Feedback</strong><span>Haltungsregeln und Qualitaets-Gate werden direkt abgeleitet.</span></div>
+            </div>
             <div class="feedback-section">
               <h4>Technik</h4>
               <ul><li>Knie stabil ueber dem Fuss halten, mit etwas mehr Aufmerksamkeit auf der Seite rechts.</li><li>Die Huefte kann kontrolliert noch etwas tiefer gefuehrt werden.</li></ul>
             </div>
-            <div class="media-note">Die Animation laeuft direkt im Bildbereich und zeigt die vollstaendige Person.</div>
+            <div class="media-note">Original und Analyse zeigen die vollstaendige Sequenz in gleicher Zeitlogik.</div>
           </div>
         </div>
         <div class="feedback">
           <h3>Therapie-Feedback</h3>
-          <div class="feedback-section">
-            <h4>Technisches Haltungsfeedback</h4>
-            <ul><li>Knie stabil ueber dem Fuss halten, mit etwas mehr Aufmerksamkeit auf der Seite rechts.</li><li>Die Huefte kann kontrolliert noch etwas tiefer gefuehrt werden.</li></ul>
-          </div>
-          <div class="feedback-section">
-            <h4>Psychologisches Feedback</h4>
-            <ul><li>Die Bewegung ist als Trainingsbasis bereits gut nutzbar.</li></ul>
-          </div>
-          <div class="feedback-section">
-            <h4>Sicherheitsfokus</h4>
-            <ul><li>Bei nachlassender Kniekontrolle zuerst Stabilitaet verbessern und erst danach mehr Tiefe suchen.</li></ul>
-          </div>
-          <div class="feedback-section">
-            <h4>Unsupervised Mustersignale</h4>
-            <ul><li>Setup- bzw. Ausgangsphase wird stabil wiedergefunden.</li><li>Aktive Bewegungsphasen werden als eigener Zustand getrennt erkannt.</li><li>Der Ablauf zeigt die Struktur Start, Bewegung und Rueckkehr.</li></ul>
-          </div>
-          <div class="feedback-section">
-            <h4>Musterrisiken</h4>
-            <ul><li>Keine dominante kritische Bewegungsphase, eher punktuelle Korrekturen.</li></ul>
-          </div>
-          <div class="feedback-section">
-            <h4>Naechster KI-Schritt</h4>
-            <ul><li>Zustandswechsel direkt in Live-Feedback und Warnlogik einspeisen.</li><li>Personenbezogene Baselines statt fixer Grenzwerte aufbauen.</li></ul>
+          <div class="feedback-grid">
+            <div class="feedback-section">
+              <h4>Technisches Haltungsfeedback</h4>
+              <ul><li>Knie stabil ueber dem Fuss halten, mit etwas mehr Aufmerksamkeit auf der Seite rechts.</li><li>Die Huefte kann kontrolliert noch etwas tiefer gefuehrt werden.</li></ul>
+            </div>
+            <div class="feedback-section">
+              <h4>Psychologisches Feedback</h4>
+              <ul><li>Die Bewegung ist als Trainingsbasis bereits gut nutzbar.</li></ul>
+            </div>
+            <div class="feedback-section">
+              <h4>Sicherheitsfokus</h4>
+              <ul><li>Bei nachlassender Kniekontrolle zuerst Stabilitaet verbessern und erst danach mehr Tiefe suchen.</li></ul>
+            </div>
+            <div class="feedback-section">
+              <h4>Unsupervised Mustersignale</h4>
+              <ul><li>Setup- bzw. Ausgangsphase wird stabil wiedergefunden.</li><li>Aktive Bewegungsphasen werden als eigener Zustand getrennt erkannt.</li></ul>
+            </div>
+            <div class="feedback-section">
+              <h4>Musterrisiken</h4>
+              <ul><li>Keine dominante kritische Bewegungsphase, eher punktuelle Korrekturen.</li></ul>
+            </div>
+            <div class="feedback-section">
+              <h4>Naechster KI-Schritt</h4>
+              <ul><li>Zustandswechsel direkt in Live-Feedback und Warnlogik einspeisen.</li><li>Personenbezogene Baselines statt fixer Grenzwerte aufbauen.</li></ul>
+            </div>
           </div>
           <div class="focus"><strong>Primarer Korrekturpunkt:</strong> Bewegungstiefe mit stabiler Achse erweitern.</div>
           <div class="encouragement"><strong>Motivierendes Feedback:</strong> Die Kniebeuge ist als Ausgangspunkt gut nutzbar. Der naechste Fortschritt liegt in etwas mehr Tiefe bei stabilerer Achse.</div>
@@ -505,26 +757,74 @@
   </main>
   <script>
     const clips = [{"name": "jefferson", "title": "Jefferson Curl", "exercise": "Seitansicht", "gif": "../jefferson_demo/jefferson_benchmark_demo.gif", "mp4": "videos/jefferson.mp4", "poster": "../jefferson_demo/jefferson_benchmark_poster.png", "gate": "Bewegung erkannt. Korrekturhinweise vor der naechsten Wiederholung beachten.", "focus": "Kopfhaltung in der Vorbeuge verbessern.", "quality_summary": "quality warning detected", "event": "Die Handfuehrung wirkt zeitweise ungleichmaessig. Beide Seiten moeglichst parallel fuehren.", "badge": "CHECK", "badge_color": "#b45309", "encouragement": "Die Vorbeuge wirkt bereits engagiert. Der naechste Fortschritt liegt eher in ruhigerer Symmetrie als in mehr Tiefe.", "technical_feedback": ["Beide Haende moeglichst gleichmaessig Richtung Fuesse fuehren.", "Kinn sanft zur Brust und den Nacken aktiv in die Vorbeuge mitnehmen."], "psychological_feedback": ["Die aktuelle Tiefe ist bereits eine brauchbare Grundlage."], "safety_feedback": ["Nur in einem Bereich arbeiten, der sich kontrolliert und schmerzfrei anfuehlt."], "therapy_feedback": ["Beide Haende moeglichst gleichmaessig Richtung Fuesse fuehren.", "Kinn sanft zur Brust und den Nacken aktiv in die Vorbeuge mitnehmen.", "Die aktuelle Tiefe ist bereits eine brauchbare Grundlage.", "Nur in einem Bereich arbeiten, der sich kontrolliert und schmerzfrei anfuehlt."], "pattern_observations": ["Setup- bzw. Ausgangsphase wird stabil wiedergefunden.", "Aktive Bewegungsphasen werden als eigener Zustand getrennt erkannt.", "Der Ablauf zeigt die Struktur Start, Bewegung und Rueckkehr."], "pattern_risks": ["Keine dominante kritische Bewegungsphase, eher punktuelle Korrekturen."], "pattern_guidance": ["Zustandswechsel direkt in Live-Feedback und Warnlogik einspeisen.", "Personenbezogene Baselines statt fixer Grenzwerte aufbauen."]}, {"name": "squat", "title": "Squat", "exercise": "Frontalansicht", "gif": "../squat_demo/squat_benchmark_demo.gif", "mp4": "videos/squat.mp4", "poster": "../squat_demo/squat_benchmark_poster.png", "gate": "Bewegung erkannt. Korrekturhinweise vor der naechsten Wiederholung beachten.", "focus": "Bewegungstiefe mit stabiler Achse erweitern.", "quality_summary": "quality warning detected", "event": "Die Kniebeuge wirkt eher flach. Die Huefte kann kontrolliert noch etwas tiefer gefuehrt werden.", "badge": "CHECK", "badge_color": "#b45309", "encouragement": "Die Kniebeuge ist als Ausgangspunkt gut nutzbar. Der naechste Fortschritt liegt in etwas mehr Tiefe bei stabilerer Achse.", "technical_feedback": ["Knie stabil ueber dem Fuss halten, mit etwas mehr Aufmerksamkeit auf der Seite rechts.", "Die Huefte kann kontrolliert noch etwas tiefer gefuehrt werden."], "psychological_feedback": ["Die Bewegung ist als Trainingsbasis bereits gut nutzbar."], "safety_feedback": ["Bei nachlassender Kniekontrolle zuerst Stabilitaet verbessern und erst danach mehr Tiefe suchen."], "therapy_feedback": ["Knie stabil ueber dem Fuss halten, mit etwas mehr Aufmerksamkeit auf der Seite rechts.", "Die Huefte kann kontrolliert noch etwas tiefer gefuehrt werden.", "Die Bewegung ist als Trainingsbasis bereits gut nutzbar.", "Bei nachlassender Kniekontrolle zuerst Stabilitaet verbessern und erst danach mehr Tiefe suchen."], "pattern_observations": ["Setup- bzw. Ausgangsphase wird stabil wiedergefunden.", "Aktive Bewegungsphasen werden als eigener Zustand getrennt erkannt.", "Der Ablauf zeigt die Struktur Start, Bewegung und Rueckkehr."], "pattern_risks": ["Keine dominante kritische Bewegungsphase, eher punktuelle Korrekturen."], "pattern_guidance": ["Zustandswechsel direkt in Live-Feedback und Warnlogik einspeisen.", "Personenbezogene Baselines statt fixer Grenzwerte aufbauen."]}];
+    const SHOWCASE_PLAYBACK_RATE = 2.85;
+
+    function installFileFallback(root) {
+      if (window.location.protocol !== "file:") return;
+
+      root.querySelectorAll(".demo-video").forEach((video) => {
+        const fallbackSrc = video.dataset.fileFallback;
+        if (!fallbackSrc) return;
+
+        const img = document.createElement("img");
+        img.className = video.className;
+        img.src = fallbackSrc;
+        img.alt = "Sequenzansicht mit Original und Analyse";
+        img.decoding = "sync";
+        video.replaceWith(img);
+      });
+    }
 
     function startCycle(root, clip) {
-      const video = root.querySelector(".demo-video");
-      if (video) {
-        const tryPlay = () => {
-          const promise = video.play();
-          if (promise && typeof promise.catch === "function") {
-            promise.catch(() => {});
-          }
-        };
-        if (video.readyState >= 2) {
-          tryPlay();
-        } else {
-          video.addEventListener("loadeddata", tryPlay, { once: true });
+      const videos = Array.from(root.querySelectorAll(".demo-video"));
+      if (!videos.length) return;
+
+      const tryPlay = (video) => {
+        video.muted = true;
+        video.defaultMuted = true;
+        video.autoplay = true;
+        video.loop = true;
+        video.playsInline = true;
+        video.setAttribute("muted", "");
+        video.setAttribute("autoplay", "");
+        video.setAttribute("loop", "");
+        video.setAttribute("playsinline", "");
+        video.setAttribute("webkit-playsinline", "");
+        video.playbackRate = SHOWCASE_PLAYBACK_RATE;
+
+        const promise = video.play();
+        if (promise && typeof promise.catch === "function") {
+          promise.catch(() => {});
         }
-      }
+      };
+
+      videos.forEach((video) => {
+        if (video.readyState >= 1) {
+          tryPlay(video);
+        } else {
+          video.addEventListener("loadedmetadata", () => {
+            video.playbackRate = SHOWCASE_PLAYBACK_RATE;
+          }, { once: true });
+          video.addEventListener("canplay", () => {
+            tryPlay(video);
+          }, { once: true });
+        }
+      });
+
+      const playAll = () => videos.forEach((video) => tryPlay(video));
+
+      window.addEventListener("pageshow", playAll);
+      document.addEventListener("visibilitychange", () => {
+        if (!document.hidden) playAll();
+      });
+
+      if (document.readyState === "complete") playAll();
+      else window.addEventListener("load", playAll, { once: true });
     }
 
     document.querySelectorAll("[data-clip]").forEach((node) => {
       const clip = clips.find((item) => item.name === node.dataset.clip);
+      installFileFallback(node);
       if (clip) startCycle(node, clip);
     });
   </script>
